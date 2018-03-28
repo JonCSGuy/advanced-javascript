@@ -1,0 +1,50 @@
+body {
+  background-color: #fafafa;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f7f7f7;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#navbar {
+  width: 100%;
+
+  background-color: #fee;
+}
+
+#navbar > ul > li {
+  display: inline-block;
+  margin: 0.5em 0.5em;
+  margin-left: 0;
+}
+
+#navbar > ul {
+  padding-left: 1em;
+  margin: 0;
+}
+
+#content {
+  padding: 1em;
+}
+
+#footer {
+  width: 100%;
+
+  background-color: #eee;
+}
+
+#footer > div {
+  padding: 1em;
+}
